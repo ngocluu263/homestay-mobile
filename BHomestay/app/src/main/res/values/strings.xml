@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BHomestay</string>
+    <string name="tit_dialog_choose_network">Please choose network</string>
+    <string name="txt_dialog_choose_network">Please choose network that one you want to connect</string>
+    <string name="txt_dialog_btn_ok">Ok</string>
+    <string name="txt_dialog_btn_cancel">Cancel</string>
+    <string name="txt_dialog_waiting" />
+</resources>

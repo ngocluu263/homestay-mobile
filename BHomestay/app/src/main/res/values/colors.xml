@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="bg_common">#eeeeee</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_transparent">#00ffffff</color>
+    <color name="text_black">#000000</color>
+    <color name="txt_blue">#037aff</color>
+    <color name="txt_dark_blue">#003399</color>
+    <color name="bg_gray_line">#cccccc</color>
+    <color name="bg_hidden_dialog">#55000000</color>
+    <color name="txt_red">#ff0000</color>
+    <color name="txt_function_bar_gray">#666666</color>
+    <color name="bg_emergency">#FBE5E7</color>
+    <color name="line_switch_input">#56D169</color>
+    <color name="txt_gray">#999999</color>
+    <color name="bg_gray">#dddddd</color>
+    <color name="txt_policy_color">#0000BB</color>
+    <color name="color_pink">#F5A9D0</color>
+    <color name="bg_album_item_time">#70000000</color>
+    <color name="bg_new_album_item">#e52c44</color>
+    <color name="bg_viewed_album_item">#ef8200</color>
+    <color name="color_transparent_black">#80000000</color>
+    <color name="actionbar_menu_item_color">#003399</color>
+    <color name="bg_tour_guide">#3ebef7</color>
+    <color name="bg_splash">#e2e8f1</color>
+    <color name="bg_can_be_download">#4169e1</color>
+    <color name="transparent_gray">#99000000</color>
+    <color name="action_bar">@color/bg_white</color>
+
+</resources>
