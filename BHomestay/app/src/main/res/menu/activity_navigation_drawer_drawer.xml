@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="My account">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@mipmap/ic_home_black_24dp"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@mipmap/ic_login_black_24dp"
+                android:title="Login / Sign up" />
+            <item
+                android:id="@+id/nav_wish"
+                android:icon="@mipmap/ic_wishlist_black_24dp"
+                android:title="Wish list" />
+        </menu>
+    </item>
+
+    <item android:title="Public">
+        <menu>
+            <item
+                android:id="@+id/nav_toprated"
+                android:icon="@mipmap/ic_toprated_black_24dp"
+                android:title="Top rated homestay" />
+            <item
+                android:id="@+id/nav_newstory"
+                android:icon="@mipmap/ic_newstory_black_24dp"
+                android:title="New Story" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@mipmap/ic_language_black_24dp"
+                android:title="Language" />
+            <item
+                android:id="@+id/nav_bug"
+                android:icon="@mipmap/ic_bug_report_black_24dp"
+                android:title="Bug Reporter" />
+        </menu>
+    </item>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_customer"
+                android:icon="@mipmap/ic_customer_black_24dp"
+                android:title="Customer Service" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_about_black_24dp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
