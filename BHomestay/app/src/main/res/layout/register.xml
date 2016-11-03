@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/thongtin_dangky"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="#EEEEEE">
+
+        <EditText
+            android:id="@+id/ten"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edittext"
+            android:textColor="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:hint="Tên" />
+
+        <EditText
+            android:id="@+id/ho"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:textColor="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:hint="Họ" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:textColor="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:textColor="#9E9E9E"
+            android:inputType="textPassword"
+            android:hint="Mật khẩu" />
+
+        <EditText
+            android:id="@+id/xacnhan_matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext"
+            android:textColor="#9E9E9E"
+            android:inputType="textPassword"
+            android:hint="Xác nhận mật khẩu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/dangky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Đăng ký"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_blue" />
+
+        <Button
+            android:id="@+id/dangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Bạn đã có tài khoản? Đăng nhập"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_orange" />
+    </LinearLayout>
+
+</LinearLayout>
