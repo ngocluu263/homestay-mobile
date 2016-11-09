@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/anhdaidien_homestay"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginRight="-5dp"
+                android:layout_alignBottom="@+id/ten_homestay"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/ten_homestay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="Homestay Corvin"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tiennghi_homestay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/viewtext">
+
+            <TextView
+                android:id="@+id/tiennghi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="TIỆN NGHI CHÍNH"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:id="@+id/tiennghi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_meal"/>
+
+            <TextView
+                android:id="@+id/toanbotiennghi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="XEM TOÀN BỘ TIỆN NGHI"
+                android:textSize="10sp"
+                android:textAllCaps="false"
+                android:textColor="#0D47A1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/viewtext">
+
+            <TextView
+                android:id="@+id/danhgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:text="BÌNH CHỌN ĐÁNH GIÁ"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:textColor="#000000"/>
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:rating="3.5"/>
+
+            <TextView
+                android:id="@+id/toanbodanhgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="XEM TẤT CẢ ĐÁNH GIÁ"
+                android:textSize="10sp"
+                android:textAllCaps="false"
+                android:textColor="#0D47A1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bando"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/viewtext">
+
+            <!--Chỗ này t tính để thêm cái Google Map-->
+
+            <TextView
+                android:id="@+id/diachi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="21 Nguyễn Tất Thành, Quận Liên Chiểu, Đà Nẵng"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mota_homestay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/viewtext">
+
+            <TextView
+                android:id="@+id/tieude_mota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="MÔ TẢ HOMESTAY"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/chitietmota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="XEM CHI TIẾT"
+                android:textSize="10sp"
+                android:textAllCaps="false"
+                android:textColor="#0D47A1"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/room"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/viewtext"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/image_room"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_launcher"/>
+
+            <LinearLayout
+                android:id="@+id/gia_room"
+                android:orientation="vertical"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:id="@+id/name_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Superior Room"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/donvigia_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:text="Tổng giá tiền 1 đêm, 1 phòng"
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/price_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="400.000 VND"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#EF6C00"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
