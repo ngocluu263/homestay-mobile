@@ -21,10 +21,10 @@
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
             android:inputType="textEmailAddress"
-            android:hint="Email" />
+            android:hint="@string/hintEmail" />
 
         <EditText
-            android:id="@+id/matkhau"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="43dp"
             android:layout_marginLeft="15dp"
@@ -33,15 +33,15 @@
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
             android:inputType="textPassword"
-            android:hint="Mật khẩu" />
+            android:hint="@string/hintPassword" />
 
         <TextView
-            android:id="@+id/quen_matkhau"
+            android:id="@+id/forget_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_gravity="center"
-            android:text="Quên mật khẩu"
+            android:text="@string/forgetPassword"
             android:autoLink=""
             android:textAllCaps="false"
             android:textSize="18.5sp"
@@ -49,7 +49,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/buttonPanel"
+        android:id="@+id/buttonLogin"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,11 +58,11 @@
         android:layout_marginTop="20dp">
 
         <Button
-            android:id="@+id/dangnhap"
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Đăng nhập"
+            android:text="@string/nameButtonLogin"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="30sp"
@@ -70,11 +70,11 @@
             android:background="@drawable/button_blue" />
 
         <Button
-            android:id="@+id/dangky"
+            android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="Bạn chưa có tài khoản? Đăng ký"
+            android:text="@string/nameButtonRegister"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="23sp"

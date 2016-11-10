@@ -33,7 +33,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:text="Homestay Corvin"
+                android:text="@string/nameHomestay"
                 android:textAllCaps="false"
                 android:textSize="20sp"
                 android:textColor="#000000"/>
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:text="TIỆN NGHI CHÍNH"
+                android:text="@string/mainConvenient"
                 android:textSize="15sp"
                 android:textColor="#000000"/>
 
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="XEM TOÀN BỘ TIỆN NGHI"
+                android:text="@string/showAllConvenient"
                 android:textSize="10sp"
                 android:textAllCaps="false"
                 android:textColor="#0D47A1"/>
@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="7dp"
-                android:text="BÌNH CHỌN ĐÁNH GIÁ"
+                android:text="@string/voteRating"
                 android:textSize="15sp"
                 android:textAllCaps="false"
                 android:textColor="#000000"/>
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="XEM TẤT CẢ ĐÁNH GIÁ"
+                android:text="@string/showAllRate"
                 android:textSize="10sp"
                 android:textAllCaps="false"
                 android:textColor="#0D47A1"/>
@@ -124,14 +124,14 @@
             android:layout_height="wrap_content"
             android:background="@drawable/viewtext">
 
-            <!--Chỗ này t tính để thêm cái Google Map-->
+            <!--Chỗ này Google Map-->
 
             <TextView
                 android:id="@+id/diachi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="21 Nguyễn Tất Thành, Quận Liên Chiểu, Đà Nẵng"
+                android:text="@string/address"
                 android:textSize="15sp"
                 android:textAllCaps="false"
                 android:textColor="#000000"/>
@@ -151,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:text="MÔ TẢ HOMESTAY"
+                android:text="@string/detailsHomestay"
                 android:textSize="15sp"
                 android:textColor="#000000"/>
 
@@ -161,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="XEM CHI TIẾT"
+                android:text="@string/showdetails"
                 android:textSize="10sp"
                 android:textAllCaps="false"
                 android:textColor="#0D47A1"/>
@@ -198,7 +198,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:text="Superior Room"
+                    android:text="@string/nameRoom"
                     android:textSize="20sp"
                     android:textColor="#000000"
                     android:textStyle="bold"/>
@@ -210,7 +210,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:text="Tổng giá tiền 1 đêm, 1 phòng"
+                    android:text="@string/unitPrice"
                     android:textSize="20sp"
                     android:textColor="#000000" />
 
@@ -218,7 +218,7 @@
                     android:id="@+id/price_room"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="400.000 VND"
+                    android:text="@string/price"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
                     android:textSize="20dp"

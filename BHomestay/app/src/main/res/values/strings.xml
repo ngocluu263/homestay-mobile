@@ -10,5 +10,34 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <!--Layout Login-->
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Mật khẩu</string>
+    <string name="forgetPassword">Quên mật khẩu</string>
+    <string name="nameButtonLogin">Đăng nhập</string>
+    <string name="nameButtonRegister">Bạn chưa có tài khoản? Đăng ký</string>
+
+    <!--Layout Register-->
+    <string name="hintFirstName">Tên</string>
+    <string name="hintLastName">Họ</string>
+    <string name="hintConfirmPassword">Xác nhận mật khẩu</string>
+    <string name="namebuttonRegister">Đăng ký</string>
+    <string name="namebuttonLogin">Bạn đã có tài khoản? Đăng nhập</string>
+
+    <!--Layout Result Homestay-->
+    <string name="nameHost">Diễm Hương</string>
+
+    <!--Layout Homestay Details-->
     <string name="action_settings">Settings</string>
+    <string name="mainConvenient">TIỆN NGHI CHÍNH</string>
+    <string name="nameHomestay">Homestay Corvin</string>
+    <string name="showAllConvenient">XEM TOÀN BỘ TIỆN NGHI</string>
+    <string name="voteRating">BÌNH CHỌN ĐÁNH GIÁ</string>
+    <string name="showAllRate">XEM TẤT CẢ ĐÁNH GIÁ</string>
+    <string name="address">21 Nguyễn Tất Thành, Quận Liên Chiểu, Đà Nẵng</string>
+    <string name="detailsHomestay">MÔ TẢ HOMESTAY</string>
+    <string name="showdetails">XEM CHI TIẾT</string>
+    <string name="nameRoom">Superior Room</string>
+    <string name="unitPrice">Giá tiền 1 đêm, 1 phòng</string>
+    <string name="price">400.000 VND</string>
 </resources>
