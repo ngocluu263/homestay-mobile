@@ -35,7 +35,7 @@ public class CustomListAdapter extends ArrayAdapter<Product> {
         if (convertView == null){
             LayoutInflater layoutInflater = (LayoutInflater) getContext()
                     .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
-            convertView = layoutInflater.inflate(R.layout.activity_list_homestay, null, true);
+            convertView = layoutInflater.inflate(R.layout.result_homestay, null, true);
 
         }
         Product product = getItem(position);

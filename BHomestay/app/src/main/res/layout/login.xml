@@ -21,7 +21,7 @@
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
             android:inputType="textEmailAddress"
-            android:hint="@string/hintEmail" />
+            android:hint="@string/email" />
 
         <EditText
             android:id="@+id/password"
@@ -33,7 +33,7 @@
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
             android:inputType="textPassword"
-            android:hint="@string/hintPassword" />
+            android:hint="@string/password" />
 
         <TextView
             android:id="@+id/forget_password"

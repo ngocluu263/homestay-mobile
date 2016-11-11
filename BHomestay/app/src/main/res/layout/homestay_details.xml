@@ -16,7 +16,7 @@
             android:layout_centerHorizontal="true">
 
             <ImageView
-                android:id="@+id/anhdaidien_homestay"
+                android:id="@+id/avatarHomestay"
                 android:layout_width="fill_parent"
                 android:layout_height="200dp"
                 android:layout_alignParentRight="true"
@@ -27,7 +27,7 @@
                 android:src="@mipmap/ic_launcher" />
 
             <TextView
-                android:id="@+id/ten_homestay"
+                android:id="@+id/nameHomestay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -41,14 +41,14 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/tiennghi_homestay"
+            android:id="@+id/convenientHomestay"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/viewtext">
 
             <TextView
-                android:id="@+id/tiennghi"
+                android:id="@+id/mainConvenient"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -58,7 +58,7 @@
                 android:textColor="#000000"/>
 
             <ImageView
-                android:id="@+id/tiennghi1"
+                android:id="@+id/convenient1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -66,7 +66,7 @@
                 android:src="@drawable/ic_meal"/>
 
             <TextView
-                android:id="@+id/toanbotiennghi"
+                android:id="@+id/allConvenient"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -84,7 +84,7 @@
             android:background="@drawable/viewtext">
 
             <TextView
-                android:id="@+id/danhgia"
+                android:id="@+id/rate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -105,7 +105,7 @@
                 android:rating="3.5"/>
 
             <TextView
-                android:id="@+id/toanbodanhgia"
+                android:id="@+id/allRate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -118,7 +118,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/bando"
+            android:id="@+id/map"
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
             <!--Chỗ này Google Map-->
 
             <TextView
-                android:id="@+id/diachi"
+                android:id="@+id/address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -139,14 +139,14 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/mota_homestay"
+            android:id="@+id/overview_homestay"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/viewtext">
 
             <TextView
-                android:id="@+id/tieude_mota"
+                android:id="@+id/overview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -156,7 +156,12 @@
                 android:textColor="#000000"/>
 
             <TextView
-                android:id="@+id/chitietmota"
+                android:id="@+id/txt_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/allOverview"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -185,14 +190,14 @@
                 android:src="@mipmap/ic_launcher"/>
 
             <LinearLayout
-                android:id="@+id/gia_room"
+                android:id="@+id/price_room"
                 android:orientation="vertical"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right">
 
                 <TextView
-                    android:id="@+id/name_room"
+                    android:id="@+id/nameRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -204,7 +209,7 @@
                     android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/donvigia_room"
+                    android:id="@+id/unitRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -215,7 +220,7 @@
                     android:textColor="#000000" />
 
                 <TextView
-                    android:id="@+id/price_room"
+                    android:id="@+id/priceRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/price"

@@ -11,16 +11,16 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <!--Layout Login-->
-    <string name="hintEmail">Email</string>
-    <string name="hintPassword">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
     <string name="forgetPassword">Quên mật khẩu</string>
     <string name="nameButtonLogin">Đăng nhập</string>
     <string name="nameButtonRegister">Bạn chưa có tài khoản? Đăng ký</string>
 
     <!--Layout Register-->
-    <string name="hintFirstName">Tên</string>
-    <string name="hintLastName">Họ</string>
-    <string name="hintConfirmPassword">Xác nhận mật khẩu</string>
+    <string name="firstName">Tên</string>
+    <string name="lastName">Họ</string>
+    <string name="confirmPassword">Xác nhận mật khẩu</string>
     <string name="namebuttonRegister">Đăng ký</string>
     <string name="namebuttonLogin">Bạn đã có tài khoản? Đăng nhập</string>
 
@@ -40,4 +40,15 @@
     <string name="nameRoom">Superior Room</string>
     <string name="unitPrice">Giá tiền 1 đêm, 1 phòng</string>
     <string name="price">400.000 VND</string>
+
+    <!--Layout My account-->
+    <string name="avatar">Ảnh đại diện</string>
+    <string name="phoneNumber">Số điện thoại</string>
+    <string name="gender">Giới tính</string>
+    <string name="birth">Ngày sinh</string>
+    <string name="nationality">Quốc tịch</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="save">Lưu</string>
 </resources>
