@@ -51,4 +51,10 @@
     <string name="female">Female</string>
     <string name="others">Others</string>
     <string name="save">Lưu</string>
+
+    <!--Layout Reset Password-->
+    <string name="guide1">Xin vui lòng nhập email của bạn vào ô trên</string>
+    <string name="guide2">Chúng tôi sẽ gửi bạn hướng dẫn cụ thể</string>
+    <string name="reset">Lấy lại mật khẩu</string>
+    <string name="logout">Đăng xuất</string>
 </resources>

@@ -9,15 +9,35 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/avatar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
-            android:layout_marginLeft="@dimen/marginLeft"
-            android:text="@string/avatar"
-            android:textAllCaps="false"
-            android:textSize="15sp"/>
+        <RelativeLayout
+            android:id="@+id/avatar_logout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:text="@string/avatar"
+                android:textAllCaps="false"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_marginRight="@dimen/marginRight"
+                android:text="@string/logout"
+                android:textColor="#E65100"
+                android:textAllCaps="false"
+                android:textSize="17sp"/>
+
+        </RelativeLayout>
 
         <ImageView
             android:id="@+id/image_avatar"
