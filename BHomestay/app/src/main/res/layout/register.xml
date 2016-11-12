@@ -14,31 +14,31 @@
         <EditText
             android:id="@+id/firstName"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:hint="@string/firstName" />
 
         <EditText
             android:id="@+id/lastName"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
             android:background="@drawable/edittext"
             android:textColor="#9E9E9E"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:hint="@string/lastName" />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
@@ -50,7 +50,7 @@
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
@@ -62,7 +62,7 @@
         <EditText
             android:id="@+id/confirmPassword"
             android:layout_width="match_parent"
-            android:layout_height="43dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
@@ -78,15 +78,15 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="20dp">
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop">
 
         <Button
             android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/namebuttonRegister"
             android:textAlignment="center"
             android:textAllCaps="false"
@@ -98,7 +98,7 @@
             android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/namebuttonLogin"
             android:textAlignment="center"
             android:textAllCaps="false"
