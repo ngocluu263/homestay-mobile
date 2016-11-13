@@ -57,4 +57,8 @@
     <string name="guide2">Chúng tôi sẽ gửi bạn hướng dẫn cụ thể</string>
     <string name="reset">Lấy lại mật khẩu</string>
     <string name="logout">Đăng xuất</string>
+
+    <!--Layout Search Homestay-->
+    <string name="hintSearch">Bạn muốn đi đâu?</string>
+    <string name="search">Tìm kiếm</string>
 </resources>
