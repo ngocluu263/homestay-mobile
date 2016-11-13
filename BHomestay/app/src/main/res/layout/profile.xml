@@ -19,23 +19,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_marginTop="@dimen/marginTop"
                 android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_marginTop="@dimen/marginTop"
                 android:text="@string/avatar"
                 android:textAllCaps="false"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="@dimen/marginTop"
                 android:layout_marginRight="@dimen/marginRight"
+                android:layout_marginTop="@dimen/marginTop"
                 android:text="@string/logout"
-                android:textColor="#E65100"
                 android:textAllCaps="false"
-                android:textSize="17sp"/>
+                android:textColor="#E65100"
+                android:textSize="17sp" />
 
         </RelativeLayout>
 
@@ -44,82 +44,84 @@
             android:layout_width="@dimen/widthAvatar"
             android:layout_height="@dimen/heightAvatar"
             android:layout_gravity="center"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/firstName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/firstName"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/txt_firstName"
-            android:background="@drawable/edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
-            android:layout_marginLeft="@dimen/marginLeft" />
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/edittext" />
 
         <TextView
             android:id="@+id/lastName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/lastName"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
+
         <EditText
             android:id="@+id/txt_lastName"
-            android:background="@drawable/edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
-            android:layout_marginLeft="@dimen/marginLeft" />
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/edittext" />
 
         <TextView
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/phoneNumber"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
+
         <EditText
             android:id="@+id/txt_phoneNumber"
-            android:background="@drawable/edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
-            android:layout_marginLeft="@dimen/marginLeft" />
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/edittext" />
 
         <TextView
             android:id="@+id/gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/gender"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <RadioGroup
             android:id="@+id/radioGroups_gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
-            android:layout_marginRight="@dimen/marginRight"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
             android:gravity="center"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/radioMale"
@@ -132,8 +134,8 @@
                 android:gravity="center"
                 android:padding="@dimen/padding"
                 android:text="@string/male"
-                android:textSize="16sp"
-                android:textColor="@drawable/text_radiobutton" />
+                android:textColor="@drawable/text_radiobutton"
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/radioFemale"
@@ -145,8 +147,8 @@
                 android:gravity="center"
                 android:padding="@dimen/padding"
                 android:text="@string/female"
-                android:textSize="16sp"
-                android:textColor="@drawable/text_radiobutton" />
+                android:textColor="@drawable/text_radiobutton"
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/radioOthers"
@@ -158,62 +160,63 @@
                 android:gravity="center"
                 android:padding="@dimen/padding"
                 android:text="@string/others"
-                android:textSize="16sp"
-                android:textColor="@drawable/text_radiobutton" />
+                android:textColor="@drawable/text_radiobutton"
+                android:textSize="16sp" />
         </RadioGroup>
 
         <TextView
             android:id="@+id/birth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/birth"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/date_picker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edittext"
-            android:layout_marginTop="@dimen/marginTop"
-            android:layout_marginRight="@dimen/marginRight"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/edittext"
             android:ems="15"
-            android:inputType="date"/>
+            android:inputType="date" />
 
         <TextView
             android:id="@+id/nationality"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
             android:text="@string/nationality"
             android:textAllCaps="false"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
+
         <EditText
             android:id="@+id/text_nationality"
-            android:background="@drawable/edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginLeft="@dimen/marginLeft"
             android:layout_marginRight="@dimen/marginRight"
-            android:layout_marginLeft="@dimen/marginLeft" />
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/edittext" />
 
         <Button
             android:id="@+id/save"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/marginTop"
-            android:layout_marginRight="@dimen/marginRight"
             android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginRight="@dimen/marginRight"
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/button_blue"
             android:text="@string/save"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textSize="25sp"
             android:textColor="#FFFFFF"
-            android:background="@drawable/button_blue" />
+            android:textSize="25sp" />
     </LinearLayout>
 
 </ScrollView>

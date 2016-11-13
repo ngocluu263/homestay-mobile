@@ -9,21 +9,21 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true">
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/avatarHomestay"
                 android:layout_width="fill_parent"
                 android:layout_height="200dp"
+                android:layout_alignBottom="@+id/ten_homestay"
                 android:layout_alignParentRight="true"
+                android:layout_gravity="center"
                 android:layout_marginLeft="-5dp"
                 android:layout_marginRight="-5dp"
-                android:layout_alignBottom="@+id/ten_homestay"
-                android:layout_gravity="center"
                 android:src="@mipmap/ic_launcher" />
 
             <TextView
@@ -35,8 +35,8 @@
                 android:layout_marginBottom="10dp"
                 android:text="@string/nameHomestay"
                 android:textAllCaps="false"
-                android:textSize="20sp"
-                android:textColor="#000000"/>
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -44,8 +44,8 @@
             android:id="@+id/convenientHomestay"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/viewtext">
+            android:background="@drawable/viewtext"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/mainConvenient"
@@ -54,8 +54,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:text="@string/mainConvenient"
-                android:textSize="15sp"
-                android:textColor="#000000"/>
+                android:textColor="#000000"
+                android:textSize="15sp" />
 
             <ImageView
                 android:id="@+id/convenient1"
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/ic_meal"/>
+                android:src="@drawable/ic_meal" />
 
             <TextView
                 android:id="@+id/allConvenient"
@@ -72,16 +72,16 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/showAllConvenient"
-                android:textSize="10sp"
                 android:textAllCaps="false"
-                android:textColor="#0D47A1"/>
+                android:textColor="#0D47A1"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/viewtext">
+            android:background="@drawable/viewtext"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/rate"
@@ -90,9 +90,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="7dp"
                 android:text="@string/voteRating"
-                android:textSize="15sp"
                 android:textAllCaps="false"
-                android:textColor="#000000"/>
+                android:textColor="#000000"
+                android:textSize="15sp" />
 
             <RatingBar
                 android:id="@+id/rating"
@@ -101,8 +101,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:numStars="5"
-                android:stepSize="0.5"
-                android:rating="3.5"/>
+                android:rating="3.5"
+                android:stepSize="0.5" />
 
             <TextView
                 android:id="@+id/allRate"
@@ -111,18 +111,18 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/showAllRate"
-                android:textSize="10sp"
                 android:textAllCaps="false"
-                android:textColor="#0D47A1"/>
+                android:textColor="#0D47A1"
+                android:textSize="10sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/map"
-            android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/viewtext">
+            android:background="@drawable/viewtext"
+            android:orientation="vertical">
 
             <!--Chỗ này Google Map-->
 
@@ -132,9 +132,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/address"
-                android:textSize="15sp"
                 android:textAllCaps="false"
-                android:textColor="#000000"/>
+                android:textColor="#000000"
+                android:textSize="15sp" />
 
         </LinearLayout>
 
@@ -142,8 +142,8 @@
             android:id="@+id/overview_homestay"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/viewtext">
+            android:background="@drawable/viewtext"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/overview"
@@ -152,8 +152,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:text="@string/detailsHomestay"
-                android:textSize="15sp"
-                android:textColor="#000000"/>
+                android:textColor="#000000"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/txt_overview"
@@ -167,68 +167,68 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:text="@string/showdetails"
-                android:textSize="10sp"
                 android:textAllCaps="false"
-                android:textColor="#0D47A1"/>
+                android:textColor="#0D47A1"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <RelativeLayout
             android:id="@+id/room"
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/viewtext"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="5dp"
+            android:background="@drawable/viewtext"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/image_room"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
-                android:layout_weight="1"
                 android:layout_alignParentRight="true"
-                android:src="@mipmap/ic_launcher"/>
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher" />
 
             <LinearLayout
                 android:id="@+id/price_room"
-                android:orientation="vertical"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="right">
+                android:layout_gravity="right"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/nameRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
                     android:text="@string/nameRoom"
-                    android:textSize="20sp"
                     android:textColor="#000000"
-                    android:textStyle="bold"/>
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/unitRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
                     android:text="@string/unitPrice"
-                    android:textSize="20sp"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/priceRoom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/price"
-                    android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/price"
+                    android:textColor="#EF6C00"
                     android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="#EF6C00"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

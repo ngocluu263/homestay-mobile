@@ -61,4 +61,11 @@
     <!--Layout Search Homestay-->
     <string name="hintSearch">Bạn muốn đi đâu?</string>
     <string name="search">Tìm kiếm</string>
+
+    <!--Layout Contact Host-->
+    <string name="title">Tiêu đề</string>
+    <string name="hintTitle">Hãy nhập tiêu đề bạn muốn liên hệ</string>
+    <string name="message">Nội dung</string>
+    <string name="hintMessage">Hãy nhập nội dung bạn muốn liên hệ</string>
+    <string name="nameButtonContact">Gửi tin nhắn</string>
 </resources>

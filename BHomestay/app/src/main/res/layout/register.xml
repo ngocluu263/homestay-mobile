@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/information_register"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="380dp"
-        android:background="#EEEEEE">
+        android:background="#EEEEEE"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/firstName"
@@ -19,9 +19,9 @@
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/marginTop"
             android:background="@drawable/edittext"
-            android:textColor="#9E9E9E"
+            android:hint="@string/firstName"
             android:inputType="text"
-            android:hint="@string/firstName" />
+            android:textColor="#9E9E9E" />
 
         <EditText
             android:id="@+id/lastName"
@@ -31,9 +31,9 @@
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
             android:background="@drawable/edittext"
-            android:textColor="#9E9E9E"
+            android:hint="@string/lastName"
             android:inputType="text"
-            android:hint="@string/lastName" />
+            android:textColor="#9E9E9E" />
 
         <EditText
             android:id="@+id/email"
@@ -43,9 +43,9 @@
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
             android:background="@drawable/edittext"
-            android:textColor="#9E9E9E"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:hint="@string/email" />
+            android:textColor="#9E9E9E" />
 
         <EditText
             android:id="@+id/password"
@@ -55,9 +55,9 @@
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
             android:background="@drawable/edittext"
-            android:textColor="#9E9E9E"
+            android:hint="@string/password"
             android:inputType="textPassword"
-            android:hint="@string/password" />
+            android:textColor="#9E9E9E" />
 
         <EditText
             android:id="@+id/confirmPassword"
@@ -67,44 +67,44 @@
             android:layout_marginRight="@dimen/marginRight"
             android:layout_marginTop="@dimen/layout_marginTopBetweenEditText"
             android:background="@drawable/edittext"
-            android:textColor="#9E9E9E"
+            android:hint="@string/confirmPassword"
             android:inputType="textPassword"
-            android:hint="@string/confirmPassword" />
+            android:textColor="#9E9E9E" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/buttonRegister"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/marginLeft"
         android:layout_marginRight="@dimen/marginRight"
-        android:layout_marginTop="@dimen/marginTop">
+        android:layout_marginTop="@dimen/marginTop"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/button_blue"
             android:text="@string/namebuttonRegister"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textSize="30sp"
             android:textColor="#FFFFFF"
-            android:background="@drawable/button_blue" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/marginTop"
+            android:background="@drawable/button_orange"
             android:text="@string/namebuttonLogin"
             android:textAlignment="center"
             android:textAllCaps="false"
-            android:textSize="23sp"
             android:textColor="#FFFFFF"
-            android:background="@drawable/button_orange" />
+            android:textSize="23sp" />
     </LinearLayout>
 
 </LinearLayout>
