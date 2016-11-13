@@ -1,81 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_list_view"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="wrap_content"
+        android:id="@+id/homestay"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginRight="110dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/txtName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="@string/nameHomestay"
-            android:textColor="#c60a0a"
-            android:textSize="15sp" />
-
-        <RatingBar
-            android:id="@+id/rating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:isIndicator="false"
-            android:numStars="5"
-            android:rating="3.5" />
-
-        <TextView
-            android:id="@+id/txtPrice"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="@string/price"
-            android:textColor="#101e99"
-            android:textSize="15sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/linearLayout"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@drawable/edittext"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageViewProduct"
-            android:layout_width="100dp"
-            android:layout_height="80dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:id="@+id/image_homestay"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
             android:src="@mipmap/ic_launcher" />
 
-        <TextView
-            android:id="@+id/txtHostName"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:id="@+id/basic_information"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_below="@id/imageViewProduct"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:text="@string/nameHost"
-            android:textColor="#101e99"
-            android:textSize="15sp" />
+            android:layout_marginTop="@dimen/marginTop"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_host"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:id="@+id/information_homestay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:layout_toRightOf="@+id/image_host"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_homestay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nameHomestay"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/address_homestay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/address"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity=""
+                    android:layout_marginTop="10dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="3.5"
+                    android:stepSize="0.1" />
+
+                <TextView
+                    android:id="@+id/price_homestay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/price"
+                    android:textAllCaps="true"
+                    android:textColor="#E65100"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
 
     </LinearLayout>
-</RelativeLayout>
+
+</LinearLayout>
