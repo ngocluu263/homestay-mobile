@@ -68,4 +68,7 @@
     <string name="message">Nội dung</string>
     <string name="hintMessage">Hãy nhập nội dung bạn muốn liên hệ</string>
     <string name="nameButtonContact">Gửi tin nhắn</string>
+
+    <!--Layout Story-->
+    <string name="nameStory">Phượt Đà Nẵng</string>
 </resources>

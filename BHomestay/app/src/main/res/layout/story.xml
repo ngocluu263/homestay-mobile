@@ -16,6 +16,38 @@
             android:layout_gravity="center"
             android:src="@mipmap/ic_launcher" />
 
+        <TextView
+            android:id="@+id/name_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/nameStory"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:id="@+id/like_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTop">
+
+            <Button
+                android:id="@+id/like_homestay"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="@dimen/marginRight"
+                android:background="@drawable/like" />
+
+            <Button
+                android:id="@+id/report_homestay"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="@dimen/marginLeft"
+                android:background="@drawable/report" />
+        </LinearLayout>
+
         <LinearLayout
             android:id="@+id/story1"
             android:layout_width="match_parent"
