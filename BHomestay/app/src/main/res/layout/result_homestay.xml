@@ -50,14 +50,14 @@
                         android:id="@+id/like_homestay"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:layout_marginRight="5dp"
-                        android:background="@drawable/like" />
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/favorite" />
 
                     <Button
                         android:id="@+id/report_homestay"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="10dp"
                         android:background="@drawable/report" />
                 </LinearLayout>
             </LinearLayout>
